@@ -73,6 +73,7 @@ public class Main {
                     printMenu();
                     break;
                 case "Q":
+                    quitLoop = true;
                     System.out.println("User wants to go Quit");
                     break;
                 default:
